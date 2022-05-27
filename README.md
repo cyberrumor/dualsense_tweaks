@@ -12,4 +12,5 @@ Udev and X11 configs to resolve input and audio annoyances with dualsense contro
 - `git clone https://github.com/cyberrumor/dualsense_tweaks`
 - `sudo cp -r dualsense_tweaks/etc /`
 - `sudo udevadm control --reload`
+- `pulseaudio -k && pulseaudio --start`
 - restart your X session.
